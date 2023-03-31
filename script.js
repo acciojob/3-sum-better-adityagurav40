@@ -30,18 +30,6 @@ function threeSum(nums, target) {
 
   return closestSum;
 }
-You can call this function with an array of integers and a target number to find the sum of three integers in the array that is closest to the target. If there are multiple sums that are equally close to the target, this implementation will return the one that appears first in the sorted array.
-
-Example usage:
-
-javascript
-Copy code
-const nums = [-1, 2, 1, -4];
-const target = 1;
-
-const closestSum = threeSum(nums, target);
-console.log(closestSum); // Output: 2
-
 
 
 
